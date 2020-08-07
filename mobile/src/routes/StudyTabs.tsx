@@ -24,9 +24,8 @@ function StudyTabs() {
                 },
                 iconStyle: {
                     flex: 0,
-                    width: 20,
-                    height: 20,
-                    marginBottom: 2
+                    width: 30,
+                    height: 30
                 },
                 labelStyle: {
                     fontFamily: 'Archivo_700Bold',
