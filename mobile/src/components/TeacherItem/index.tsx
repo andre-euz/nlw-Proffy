@@ -32,9 +32,10 @@ function TeacherItem() {
                     <Text style={styles.priceValue}>R$ 20,00</Text>
                 </Text>
                 <View style={styles.buttonContainer}>
-                        <RectButton style={styles.favoriteButton}>
+                        <RectButton style={[styles.favoriteButton, styles.favorited]}>
                             <Image 
-                                source={heartOutlineIcon}
+                                //source={heartOutlineIcon}
+                                source={unfavoriteIcon}
                             />
                         </RectButton>
                         <RectButton style={styles.contactButton}>
