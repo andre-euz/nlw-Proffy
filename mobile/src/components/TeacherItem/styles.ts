@@ -33,7 +33,35 @@ const styles = StyleSheet.create({
         color: '#6a6180',
         fontSize: 12,
         marginTop: 4
-    }
+    },
+    bio: {
+        marginHorizontal: 24,
+        fontFamily: 'Poppins_400Regular',
+        fontSize: 14,
+        lineHeight: 24,
+        color: '#6a6180'
+    },
+    footer: {
+
+    },
+    price: {
+
+    },
+    priceValue: {
+
+    },
+    buttonContainer: {
+
+    },
+    favoriteButton: {
+
+    },
+    contactButton: {
+
+    },
+    contactButtonText: {
+
+    },
 });
 
 export default styles;
